@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Html form</title>
+</head>
+<body>
+    <form action="">
+        <label for="search">SEARCH:</label>
+        <input type="search" id="search">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" placeholder="Gedion">
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" placeholder="Mbithi">
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" placeholder="Enter password" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email address"><br>
+        <label for="readonly">Read Only:</label>
+        <input type="text" id="readonly"  value="joedon" readonly>
+        <label for="readonly">Date o b:</label>
+        <input type="date" id="dob" ><br>
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="gender" value="others">
+        <label for="others">Others</label><br>
+
+        <label>Languages:</label>
+        <input type="checkbox" id="HTML" name="languages" value="HTML">
+        <label for="male">HTML</label>
+        <input type="checkbox" id="CSS" name="languages" value="CSS">
+        <label for="female">CSS</label>
+        <input type="checkbox" id="JS" name="languages" value="JS">
+        <label for="others">JS</label><br>
+
+        <label for="count">Country:</label>
+        <select name="country" id="count">
+            <option value="" selected disabled>Select a Country</option>
+            <option value="">Nigeria</option>
+            <option value="">India</option>
+            <option value="">Kenya</option>
+            <option value="">Gambia</option>
+        </select><br>
+
+        <input type="submit"><br>
+       
+    </form>
+</body>
+</html>
